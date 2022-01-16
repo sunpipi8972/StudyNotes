@@ -49,5 +49,5 @@ class Solution:
         i = 1
         sums = 0
         while i <= len(arr):
-            for 
+            pass
 
