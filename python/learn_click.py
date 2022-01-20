@@ -8,7 +8,6 @@ click: 一个python的命令行工具
 # 实现python接收指定参数，并且可以自动补全参数
 
 
-from urllib.parse import uses_fragment
 import click
 
 @click.group()
@@ -29,7 +28,7 @@ def backup():
 
 @backup.command(help='backup dcs')
 def dcs():
-    pass
+    print("ooooooooo")
 
 @backup.command()
 def gtm():
