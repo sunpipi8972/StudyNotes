@@ -15,5 +15,7 @@ def main(file):
     print(file_is_empty(file))
 
 
+
+
 if __name__ == '__main__':
     main("/Users/sunlei/.bashrc")
